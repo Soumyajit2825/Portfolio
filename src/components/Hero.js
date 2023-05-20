@@ -8,9 +8,10 @@ import {
   Icon,
   useColorModeValue,
   createIcon,
+  Image,
 } from "@chakra-ui/react";
 import ProfileArray from "./ProfileArray";
-
+import Soumya from '../images/Soumyajit Portfolio Image.jpeg'
 export default function Header({ color }) {
   const profile = ProfileArray();
   const scrollToContact = () => {
@@ -19,10 +20,10 @@ export default function Header({ color }) {
   };
   const linkedin = () => {
     window.open(
-                `${profile.linkedin}`,
-                "_blank",
-                "noreferrer,noopener"
-              );
+      `${profile.linkedin}`,
+      "_blank",
+      "noreferrer,noopener"
+    );
   };
   return (
     <>
@@ -64,6 +65,12 @@ export default function Header({ color }) {
             alignSelf={"center"}
             position={"relative"}
           >
+            <Image href='https://linkedin.com/in/soumyajit-mondal2825'
+              borderRadius='full'
+              boxSize='150px'
+              src={Soumya}
+              alt='Soumyajit Mondal'
+            />
             <Button
               colorScheme={color}
               bg={`${color}.400`}

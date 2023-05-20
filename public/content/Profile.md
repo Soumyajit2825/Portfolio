@@ -12,7 +12,7 @@ Write your "About" section here.
 
 
 ## Contact
-Contact Me 
+
 - LinkedIn: https://linkedin.com/in/soumyajit-mondal2825
 - GitHub: https://github.com/Soumyajit2825
 - Email: mondalsoumya02@gmail.com
